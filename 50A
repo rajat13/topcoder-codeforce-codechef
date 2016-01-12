@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+int m,n,area=0;
+cin>>m>>n;
+area=m*n;
+if((area/2.0)<1)cout<<"0"<<endl;
+else cout<<area/2<<endl;
+return 0;
+}
